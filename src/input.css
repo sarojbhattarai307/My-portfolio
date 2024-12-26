@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.img-ctn:hover {
+translate: -20px -10px;
+box-shadow: 15px 15px 15px rgb(119, 116, 116);
+transition: 0.3s ease-in-out;
+}
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Hind+Mysuru:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link  rel="stylesheet" href="./output.css">
+<link rel="stylesheet" href="./input.css">    
+    <style>
+        *{
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white fixed w-[100%] top-0">
+        <nav class="navbar flex p-8 justify-between items-center ">
+            <h1 class="text-2xl lg:text-3xl">Saroj Bhattarai</h1>
+            <div>
+                <ul class="nav-list hidden lg:flex gap-8 pl-10 ">
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">About me</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Projects</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Skills</a></li>
+                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn lg:hidden text-2xl"><i class="fa-solid fa-bars"></i></div>
+            <div class="btn-ctn hidden lg:flex lg:gap-8 ">
+                <button class="shadow-2xl p-3 rounded-lg">View Projects</button>
+                <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg">Contact Me</button>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="mt-10 text-center p-5">
+        <div class="md:flex justify-between items-center gap-10">
+            <img class="md:max-w-[50%] md:max-h-[30%] rounded-lg" src="images/profile-2.webp" alt="Profile-img">
+            <div>
+                <h1 class="text-3xl font-bold md:text-5xl my-8">Welcome To  <span class="text-[#283566]">Saroj Bhattarai's </span>Portfolio</h1>
+                <p class="text-justify pt-5 text-xl">Explore my journey as a frontend developer with 5 years of experience. Discover my projects and skills that make me a passionate and dedicated professional.</p>
+                <div class="flex flex-col md:flex-row items-center gap-3 mt-8">
+                    <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg inline-block w-fit">View Projects</button>
+                    <button class="border-solid border-2 border-gray py-2 p-3 shadow-sms rounded-md inline-block w-fit">About Me</button>
+                </div>
+                </div>
+                
+                
+        </div>
+
+       
+        
+
+        <div class=" mt-16 md:flex justify-between items-center text-center gap-5">
+            <h1 class="text-3xl font-bold md:w-[70%]">Meet Saroj Bhattarai</h1>
+            <p class="mt-8 text-justify md:w-[60%]">
+                I am a passionate frontend web developer with over 5 years of experience in crafting responsive and user-friendly web applications. My journey began with a love for technology and design, leading me to work on diverse projects that enhance user experience. I specialize in HTML, CSS, and JavaScript, and I am committed to continuous learning to stay ahead in the ever-evolving web development landscape. My mission is to deliver high-quality web solutions that not only meet client needs but also provide exceptional user experiences. Let’s connect and explore how I can help bring your ideas to life!</p>
+        </div>
+
+        <div class="mt-16">
+            <h2 class="text-2xl">My Projects</h2>
+            <h1 class="text-3xl mt-3 font-semibold">Explore My Work</h1>
+            <p class="mt-5">Discover the projects I’ve worked on, showcasing my skills and creativity in frontend development.</p>
+             <p class="font-extrabold text-xl">click the Title of the projects If you want to explore it.</p>
+        </div>
+        <!-- <hr class=" border-solid border-black border-b-1 mt-8  mx-auto "> -->
+        <div class="mx-auto mt-6 grid gap-4 md:grid-cols-2  justify-center items-center">
+            <div class="img-ctn w-[90%] mx-auto p-3 rounded-xl shadow-lg shadow-slate-500 max-w-[450px] max-xl:max-w-[700px]">
+                <img src="images/img1.png" class="w-[90%] mx-auto mt-3">
+                <p class="text-2xl font-extrabold pt-2"><a href="https://sarojbhattarai307.github.io/My-store-Project-1/">Ecommerce Store Platform</a></p>
+                <p class="p-4">Developed a fully functional e-commerce platform with product listings</p>
+            </div>
+
+            <div class="img-ctn w-[90%] mx-auto p-3 rounded-xl shadow-lg shadow-slate-500 max-w-[450px] max-xl:max-w-[700px]">
+                <img src="images/img2.png" class="w-[90%] mx-auto mt-3">
+                <p class="text-2xl font-extrabold pt-2"><a href=" https://sarojbhattarai307.github.io/Reactjs-documentation-Project-4/">React.js Documentation</a></p>
+                <p class="p-4">Created a simple react.js Documentaion from where users can know about react.js</p>
+            </div>
+
+            <div class="img-ctn w-[90%] mx-auto p-3 rounded-xl shadow-lg shadow-slate-500 max-w-[450px] max-xl:max-w-[700px]">
+                <img src="images/img3.png" class="w-[90%] mx-auto mt-3">
+                <p class="text-2xl font-extrabold pt-2"><a href=" https://sarojbhattarai307.github.io/My-Hotel-project-2/">Hotel Website</a></p>
+                <p class="p-4">Created a fully functionable website for hotel with all details</p>
+            </div>
+
+            <div class="img-ctn w-[90%] mx-auto p-3 rounded-xl shadow-lg shadow-slate-500 max-w-[450px] max-xl:max-w-[700px]">
+                <img src="images/img4.png" class="w-[90%] mx-auto mt-3">
+                <p class="text-2xl font-extrabold pt-2"><a href=" https://sarojbhattarai307.github.io/Survey-Form-Project-3/">Survey Form</a></p>
+                <p class="p-4">Developed a survey Form with all necessary Labels required.You can fill the form</p>
+            </div>
+        </div>
+    
+    </section>
+    </main>
+
+    <footer>
+        <section class="mx-5 mt-12 text-center">
+            <h1 class="text-3xl font-extrabold">Saroj Bhattarai</h1>
+            <div class="mt-8 text-center">
+                <ul class="flex gap-6 text-[16px] flex-wrap justify-center">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="m-10 flex text-2xl justify-center gap-10 flex-wrap">
+                <div><i class="fa-brands fa-facebook"></i></div>
+                <div><i class="fa-brands fa-linkedin"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+                <div><i class="fa-brands fa-github"></i></div>
+            </div>
+            <hr>
+            <div class="mt-8 flex justify-center gap-10 flex-wrap">
+                <p>© 2024 Saroj Bhattarai. All rights reserved.</p>
+                <p>Terms and Conditions</p>
+                <P>Privacy Policy</P>
+            </div>
+        </section>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
