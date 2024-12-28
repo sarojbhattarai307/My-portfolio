@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Saroj Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +18,20 @@
 </head>
 <body>
     <header class="bg-white fixed w-[100%] top-0">
-        <nav class="navbar flex p-8 justify-between items-center ">
+        <nav class="navbar flex p-8 justify-between items-center z-10 ">
             <h1 class="text-2xl lg:text-3xl">Saroj Bhattarai</h1>
             <div>
                 <ul class="nav-list hidden lg:flex gap-8 pl-10 ">
-                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">About me</a></li>
-                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Projects</a></li>
-                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Skills</a></li>
-                    <li class="nav-item"><a href="http://127.0.0.1:5500/src/#">Contact</a></li>
+                    <li class="nav-item"><a href="#about-me">About me</a></li>
+                    <li class="nav-item"><a href="#my-projects">Projects</a></li>
+                    <li class="nav-item"><a href="#about-skill">Skills</a></li>
+                    <li class="nav-item"><a href="#contact-me">Contact</a></li>
                 </ul>
             </div>
             <div class="menu-btn lg:hidden text-2xl"><i class="fa-solid fa-bars"></i></div>
             <div class="btn-ctn hidden lg:flex lg:gap-8 ">
-                <button class="shadow-2xl p-3 rounded-lg">View Projects</button>
-                <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg">Contact Me</button>
+                <button class="shadow-2xl p-3 rounded-lg"><a href="#my-projects">View Projects<a><button>
+                <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg"><a href="#contact-me">Contact Me</a></button>
             </div>
         </nav>
         <hr>
@@ -43,10 +43,10 @@
             <img class="md:max-w-[50%] md:max-h-[30%] rounded-lg" src="images/profile-2.webp" alt="Profile-img">
             <div>
                 <h1 class="text-3xl font-bold md:text-5xl my-8">Welcome To  <span class="text-[#283566]">Saroj Bhattarai's </span>Portfolio</h1>
-                <p class="text-justify pt-5 text-xl">Explore my journey as a frontend developer with 5 years of experience. Discover my projects and skills that make me a passionate and dedicated professional.</p>
+                <p class="text-justify pt-5 text-xl">Explore my journey as a frontend developer as a fresher. Discover my projects and skills that make me a passionate and dedicated professional.</p>
                 <div class="flex flex-col md:flex-row items-center gap-3 mt-8">
-                    <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg inline-block w-fit">View Projects</button>
-                    <button class="border-solid border-2 border-gray py-2 p-3 shadow-sms rounded-md inline-block w-fit">About Me</button>
+                    <button class="bg-indigo-700 shadow-lg shadow-indigo-500/50 text-white p-3 rounded-lg inline-block w-fit"><a href="#my-projects">View Projects</a></button>
+                    <button class="border-solid border-2 border-gray py-2 p-3 shadow-sms rounded-md inline-block w-fit"><a href="#about-me">About me</a></button>
                 </div>
                 </div>
                 
@@ -56,13 +56,18 @@
        
         
 
-        <div class=" mt-16 md:flex justify-between items-center text-center gap-5">
-            <h1 class="text-3xl font-bold md:w-[70%]">Meet Saroj Bhattarai</h1>
+        <div class=" mt-16 md:flex justify-between items-center text-center gap-5" id="about-me">
+            <h1 class="text-3xl font-bold md:w-[70%]">Know About Saroj Bhattarai</h1>
             <p class="mt-8 text-justify md:w-[60%]">
-                I am a passionate frontend web developer with over 5 years of experience in crafting responsive and user-friendly web applications. My journey began with a love for technology and design, leading me to work on diverse projects that enhance user experience. I specialize in HTML, CSS, and JavaScript, and I am committed to continuous learning to stay ahead in the ever-evolving web development landscape. My mission is to deliver high-quality web solutions that not only meet client needs but also provide exceptional user experiences. Let’s connect and explore how I can help bring your ideas to life!</p>
+                I am a passionate fresher frontend web developer specialized in making user-friendly web applications. My journey began with a love for technology and design, leading me to work on diverse projects that enhance user experience. I specialize in HTML, CSS its framework i.e (TailwindCss), and JavaScript as well as React Js and I am committed to continuous learning to stay ahead in the ever-evolving web development landscape. My mission is to deliver high-quality web solutions that not only meet client needs but also provide exceptional user experiences. Let’s connect and explore how I can help bring your ideas to life!</p>
         </div>
 
-        <div class="mt-16">
+        <div class=" mt-16 md:flex justify-between items-center text-center gap-5" id="about-skill">
+            <h1 class="text-3xl font-bold md:w-[70%]">Know About Saroj Bhattarai Skill</h1>
+            <p class="mt-8 text-justify md:w-[60%] font-extrabold">I am a specialized frontend Web Developer. I am expert at Html, CSS(TailwindCSS), Javascript and ReactJs.I am committed and  eager To expand my knowledge in this field in a continuous progressive Manner</p>
+        </div>
+
+        <div class="mt-16" id="my-projects">
             <h2 class="text-2xl">My Projects</h2>
             <h1 class="text-3xl mt-3 font-semibold">Explore My Work</h1>
             <p class="mt-5">Discover the projects I’ve worked on, showcasing my skills and creativity in frontend development.</p>
@@ -103,18 +108,18 @@
             <h1 class="text-3xl font-extrabold">Saroj Bhattarai</h1>
             <div class="mt-8 text-center">
                 <ul class="flex gap-6 text-[16px] flex-wrap justify-center">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="#about-me">About me</a></li>
+                    <li class="nav-item"><a href="#my-projects">Projects</a></li>
+                    <li class="nav-item"><a href="#about-skill">Skills</a></li>
+                    <li class="nav-item"><a href="#contact-me">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="m-10 flex text-2xl justify-center gap-10 flex-wrap">
-                <div><i class="fa-brands fa-facebook"></i></div>
-                <div><i class="fa-brands fa-linkedin"></i></div>
-                <div><i class="fa-brands fa-instagram"></i></div>
-                <div><i class="fa-brands fa-github"></i></div>
+            <div class="m-10 flex text-2xl justify-center gap-10 flex-wrap" id="contact-me">
+                <!-- <div><i class="fa-brands fa-facebook"></i></div> -->
+                <div><a href="https://linkedin.com/in/saroj-bhattarai-68ba1733b"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div><a href="https://instagram.com/webdeveloper_saroj307/"><i class="fa-brands fa-instagram"></i></a></div>
+                <div><a href="https://github.com/sarojbhattarai307"><i class="fa-brands fa-github"></i></a></i></div>
             </div>
             <hr>
             <div class="mt-8 flex justify-center gap-10 flex-wrap">
